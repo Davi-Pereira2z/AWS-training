@@ -14,7 +14,7 @@ Painel inicial do serviço Amazon S3 na console da AWS, onde é possível visual
 ## 2. Configuração do Bucket (General Configuration)
 Definição da região (`us-west-2`), escolha do tipo de bucket (`General purpose`), namespace global e definição do nome do bucket como `lab-s3-davi-1311`[cite: 2].
 
-![Criar Bucket - Configuração Geral](Amazon_S3_imagens/2.png)
+![Criar Bucket - Configuração Geral](S3_imagens/2.png)
 
 ---
 
