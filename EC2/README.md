@@ -8,7 +8,7 @@ Nesta atividade, foi criada uma instância Amazon EC2 utilizando o sistema opera
 
 Acessei o serviço Amazon EC2 e iniciei o processo de criação de uma nova instância.
 
-![Acessando o EC2](./1.png)
+![Acessando o EC2](./imagens/1.png)
 
 ---
 
@@ -16,7 +16,7 @@ Acessei o serviço Amazon EC2 e iniciei o processo de criação de uma nova inst
 
 Defini o nome da instância como **Web Server** e selecionei a imagem do sistema operacional **Amazon Linux**.
 
-![Configurando a instância](./2.png)
+![Configurando a instância](./imagens/2.png)
 
 ---
 
@@ -24,7 +24,7 @@ Defini o nome da instância como **Web Server** e selecionei a imagem do sistema
 
 Configurei o tipo da instância como **t3.micro**, além das configurações de acesso, rede e grupo de segurança.
 
-![Configurações da instância](./3.png)
+![Configurações da instância](./imagens/3.png)
 
 ---
 
@@ -32,7 +32,7 @@ Configurei o tipo da instância como **t3.micro**, além das configurações de 
 
 Configurei opções adicionais da instância, como o comportamento de desligamento e a proteção contra encerramento.
 
-![Configurações adicionais](./4.png)
+![Configurações adicionais](./imagens/4.png)
 
 ---
 
@@ -40,7 +40,7 @@ Configurei opções adicionais da instância, como o comportamento de desligamen
 
 Adicionei um script de **User Data** para instalar e iniciar automaticamente um servidor web HTTP e criar uma página HTML.
 
-![Script de User Data](./5.png)
+![Script de User Data](./imagens/5.png)
 
 ---
 
@@ -48,7 +48,7 @@ Adicionei um script de **User Data** para instalar e iniciar automaticamente um 
 
 A criação da instância EC2 foi concluída com sucesso.
 
-![Instância criada](./6.png)
+![Instância criada](./imagens/6.png)
 
 ---
 
@@ -56,7 +56,7 @@ A criação da instância EC2 foi concluída com sucesso.
 
 Verifiquei que a instância **Web Server** estava em execução, com o status **Running**.
 
-![Instância em execução](./7.png)
+![Instância em execução](./imagens/7.png)
 
 ---
 
@@ -64,7 +64,7 @@ Verifiquei que a instância **Web Server** estava em execução, com o status **
 
 Acessei os detalhes da instância para identificar o **endereço IPv4 público**, utilizado para acessar o servidor pela internet.
 
-![Detalhes da instância](./8.png)
+![Detalhes da instância](./imagens/8.png)
 
 ---
 
@@ -72,7 +72,7 @@ Acessei os detalhes da instância para identificar o **endereço IPv4 público**
 
 Paralisei a instância, alterando seu estado de **Running** para **Stopping**.
 
-![Paralisando a instância](./9.png)
+![Paralisando a instância](./imagens/9.png)
 
 ---
 
@@ -80,7 +80,7 @@ Paralisei a instância, alterando seu estado de **Running** para **Stopping**.
 
 Após paralisar a instância, iniciei o processo de alteração do seu tipo, modificando de **t3.micro** para **t3.small**.
 
-![Alterando o tipo da instância](./10.png)
+![Alterando o tipo da instância](./imagens/10.png)
 
 ---
 
@@ -88,7 +88,7 @@ Após paralisar a instância, iniciei o processo de alteração do seu tipo, mod
 
 Também modifiquei as configurações do volume de armazenamento **EBS**, alterando sua capacidade.
 
-![Modificando o volume](./11.png)
+![Modificando o volume](./imagens/11.png)
 
 ---
 
@@ -96,7 +96,7 @@ Também modifiquei as configurações do volume de armazenamento **EBS**, altera
 
 A solicitação de modificação do volume foi realizada e o processo de alteração foi iniciado.
 
-![Modificação do volume](./12.png)
+![Modificação do volume](./imagens/12.png)
 
 ---
 
@@ -104,7 +104,7 @@ A solicitação de modificação do volume foi realizada e o processo de altera�
 
 Após realizar as modificações, iniciei novamente a instância e verifiquei que ela estava em execução com o novo tipo **t3.small**.
 
-![Instância reiniciada](./13.png)
+![Instância reiniciada](./imagens/13.png)
 
 ---
 
@@ -112,7 +112,7 @@ Após realizar as modificações, iniciei novamente a instância e verifiquei qu
 
 Por fim, encerrei a instância EC2, finalizando a atividade e excluindo os recursos utilizados.
 
-![Instância encerrada](./14.png)
+![Instância encerrada](./imagens/14.png)
 
 ---
 
@@ -120,4 +120,4 @@ Por fim, encerrei a instância EC2, finalizando a atividade e excluindo os recur
 
 Esta imagem mostra a tela de inicialização do sistema operacional **Amazon Linux** utilizado na instância EC2.
 
-![Inicialização do Amazon Linux](./i-0534b8144bf80d79e.jpg)
+![Inicialização do Amazon Linux](./imagens/i-0534b8144bf80d79e.jpg)
