@@ -7,7 +7,7 @@ Este repositório documenta o passo a passo prático da criação, configuraçã
 ## 1. Visão Geral do Amazon S3
 Painel inicial do serviço Amazon S3 na console da AWS, onde é possível visualizar a introdução ao serviço e acessar o botão para criar um novo bucket[cite: 1].
 
-![Painel Inicial Amazon S3](Amazon_S3_imagens/1.png)
+![Painel Inicial Amazon S3](Amazon S3 imagens/1.png)
 
 ---
 
