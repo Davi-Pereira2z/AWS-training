@@ -8,7 +8,7 @@ Nesta atividade, foi criada uma instância Amazon EC2 utilizando o sistema opera
 
 Acessei o serviço Amazon EC2 e iniciei o processo de criação de uma nova instância.
 
-![Acessando o EC2](./imagens/1.png)
+![Acessando o EC2](../imagens/1.png)
 
 ---
 
